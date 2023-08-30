@@ -1,0 +1,22 @@
+Insegnamento di "Analisi dei dati (Data mining)"
+Prova d'esame del 4 luglio 2016 - parte pratica
+
+
+Nel dataset frodi.csv sono presenti 91557 transazioni finanziarie, effettuate attraverso carte di credito, relative a un periodo di un mese. Oltre ai dati della 
+transazione, sono già stati calcolati alcuni indicatori che esperienze passate hanno mostrato essere utili per identificare eventuali frodi. In particolare sono 
+disponibili degli indicatori di anomalia della transazione, relativamente all’importo speso e a precedenti modi d’uso della medesima carta. Il contenuto specifico di 
+ciascuno di questi indicatori non è disponibile per motivi legati alla proprietà intellettuale degli stessi.
+
+L’obiettivo dell’analisi consiste nello scoprire le operazioni fraudolente in relazione alle caratteristiche delle transazioni, in modo da prevedere le prime in 
+funzione delle seconde.
+
+Il dataset è composto dai seguenti campi:
+• Id: Identificativo della transazione
+• Id_carta: Identificativo della carta di credito.
+• Importo: L’importo della transazione.
+• 9 indicatori di anomalia sull’importo della transazione. Esempi: confronto
+con il mese precedente, confronto con il semestre precedente.
+• 8 indicatori di anomalia comportamentale. Esempi: anomalia rispetto ai posti in cui la carta ha operato, anomalia rispetto alla frequenza delle transazioni.
+• 8 indicatori di confronto della carta con le carte ad essa simili.
+• frode: variabile indicatrice. Assume valore 1 per le transazioni fraudolente; 0 per le transazioni non fraudolente. 
+
